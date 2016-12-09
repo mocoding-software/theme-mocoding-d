@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Dark+</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1E1E1E</string>
+				<key>caret</key>
+				<string>#E8E0C8</string>
+				<key>foreground</key>
+				<string>#E8E0C8</string>
+				<key>invisibles</key>
+				<string>#464646</string>
+				<key>lineHighlight</key>
+				<string>#464646</string>
+				<key>selection</key>
+				<string>#2A4F78</string>
+			</dict>
+		</dict>
+<!-- Common for all languages -->
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword.identifier, var.declaration.storage.type, storage.type.class, keyword.method.new, keyword.other, keyword.control, primitive, modifier, language.constant, meta.preprocessor</string>
+			<key>settings</key>
+			<dict>				
+				<key>fontStyle</key>
+				<string>bold</string>				
+				<key>foreground</key>
+				<string>#FF8811</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operator</string>
+			<key>scope</key>
+			<string>angle, curly, brace, punctuation, storage.type.class.arrow</string>
+			<key>settings</key>
+			<dict>				
+				<key>foreground</key>
+				<string>#eeeeee</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Type</string>
+			<key>scope</key>
+			<string>class.type.name, storage.type.variable, return-type, inherited-class, type.entity.name, declaration.entity.type, declaration.heritage.type</string>
+			<key>settings</key>
+			<dict>								
+				<key>foreground</key>
+				<string>#2DA7C9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#81B073</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EC9D9D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D9D900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Property name</string>
+			<key>scope</key>
+			<string>property-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#91D0C4</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>Structure property name</string>
+			<key>scope</key>
+			<string>structure.property-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D7BA7D</string>
+			</dict>		
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag Name</string>
+			<key>scope</key>
+			<string>entity.name.tag, selector, selector.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFA346</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>Tag Delimiter</string>
+			<key>scope</key>
+			<string>meta.tag.begin, meta.tag.end</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#30A2C2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag Attribute Name</string>
+			<key>scope</key>
+			<string>attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#30C9AE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag Attribute Value</string>
+			<key>scope</key>
+			<string>tag.quoted, string.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A3A3A3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hyperlink</string>
+			<key>scope</key>
+			<string>detected-link, string.detected-link</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80C2E2</string>
+			</dict>
+		</dict>
+		<!--TSX-->
+	<dict>
+			<key>name</key>
+			<string>Tag Name (TSX)</string>
+			<key>scope</key>
+			<string>entity.name.tag.tsx</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#569CD6</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>Tag Delimiter (TSX)</string>
+			<key>scope</key>
+			<string>meta.tag.begin.tsx, meta.tag.end.tsx</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#aaaaaa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag Attribute (TSX)</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.tsx</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#00CCFF</string>
+			</dict>
+		</dict>
+
+
+		<!--JS-->
+
+		<dict>
+			<key>name</key>
+			<string>JS Keyword</string>
+			<key>scope</key>
+			<string>js.storage.type</string>
+			<key>settings</key>
+			<dict>				
+				<key>fontStyle</key>
+				<string>bold</string>				
+				<key>foreground</key>
+				<string>#FF8811</string>
+			</dict>
+		</dict>		
+	</array>
+</dict>
+</plist>
