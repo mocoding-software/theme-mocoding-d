@@ -28,7 +28,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword.identifier, var.declaration.storage.type, storage.type.class, keyword.method.new, keyword.other, keyword.control, primitive, modifier, language.constant, meta.preprocessor</string>
+			<string>keyword.identifier, var.declaration.storage.type, this, storage.type.class, keyword.new, keyword.other, keyword.control, primitive, modifier, language.constant, meta.preprocessor</string>
 			<key>settings</key>
 			<dict>				
 				<key>fontStyle</key>
@@ -41,7 +41,7 @@
 			<key>name</key>
 			<string>Operator</string>
 			<key>scope</key>
-			<string>angle, curly, brace, punctuation, storage.type.class.arrow</string>
+			<string>angle, curly, brace, punctuation, operator.arithmetic, token.storage.type.class.function.arrow</string>
 			<key>settings</key>
 			<dict>				
 				<key>foreground</key>
@@ -58,7 +58,7 @@
 				<key>foreground</key>
 				<string>#2DA7C9</string>
 			</dict>
-		</dict>
+		</dict>		
 		<dict>
 			<key>name</key>
 			<string>Comment</string>
