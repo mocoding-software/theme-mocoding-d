@@ -28,7 +28,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword.identifier, var.declaration.storage.type, this, storage.type.class, keyword.new, keyword.other, keyword.control, primitive, modifier, language.constant, meta.preprocessor</string>
+			<string>keyword.identifier, constant.language, storage.type.ts, storage.type.js, storage.type.interface, storage.modifier, support.type.primitive, var.declaration.storage.type, variable.language.this, storage.type.class, keyword.operator.new, keyword.operator.other, keyword.control, primitive, modifier, language.constant, meta.preprocessor, keyword.type, keyword.other</string>
 			<key>settings</key>
 			<dict>				
 				<key>fontStyle</key>
@@ -41,24 +41,35 @@
 			<key>name</key>
 			<string>Operator</string>
 			<key>scope</key>
-			<string>angle, curly, brace, punctuation, operator.arithmetic, token.storage.type.class.function.arrow</string>
+			<string>angle, curly, punctuation.curlybrace, operator.arithmetic, token.storage.type.class.function.arrow, keyword.operator.type.annotation, keyword.operator.ternary, punctuation.terminator.statement, punctuation.definition.block, storage.type.function.arrow, meta.brace.square, punctuation.definition.parameters, keyword.operator.type, punctuation.section.embedded, keyword.operator.arrow, punctuation.parenthesis, keyword.operator.conditional</string>
 			<key>settings</key>
 			<dict>				
 				<key>foreground</key>
-				<string>#eeeeee</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Type Parameters</string>
+			<key>scope</key>
+			<string>meta.type.parameters, entity.name.type.type-parameter</string>
+			<key>settings</key>
+			<dict>								
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
 			<string>Type</string>
 			<key>scope</key>
-			<string>class.type.name, storage.type.variable, return-type, inherited-class, type.entity.name, declaration.entity.type, declaration.heritage.type</string>
+			<string>entity.name.type.class, meta.return.type, class.type.name, storage.type.variable, meta.type.annotation, return-type, inherited-class, entity.other.inherited-class, declaration.entity.type, declaration.heritage.type, storage.type.cs</string>
 			<key>settings</key>
 			<dict>								
 				<key>foreground</key>
 				<string>#2DA7C9</string>
 			</dict>
-		</dict>		
+		</dict>			
 		<dict>
 			<key>name</key>
 			<string>Comment</string>
@@ -96,7 +107,7 @@
 			<key>name</key>
 			<string>Property name</string>
 			<key>scope</key>
-			<string>property-name</string>
+			<string>property-name, support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -109,7 +120,7 @@
 			<key>name</key>
 			<string>Structure property name</string>
 			<key>scope</key>
-			<string>structure.property-name</string>
+			<string>support.type.property-name</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -148,7 +159,7 @@
 			<key>name</key>
 			<string>Tag Attribute Name</string>
 			<key>scope</key>
-			<string>attribute-name</string>
+			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -161,7 +172,7 @@
 			<key>name</key>
 			<string>Tag Attribute Value</string>
 			<key>scope</key>
-			<string>tag.quoted, string.html</string>
+			<string>tag.quoted, string.quoted.double.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -184,7 +195,7 @@
 			<key>name</key>
 			<string>Tag Name (TSX)</string>
 			<key>scope</key>
-			<string>entity.name.tag.tsx</string>
+			<string>entity.name.tag.tsx, entity.name.tag.jsx, entity.name.tag.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -197,7 +208,7 @@
 			<key>name</key>
 			<string>Tag Delimiter (TSX)</string>
 			<key>scope</key>
-			<string>meta.tag.begin.tsx, meta.tag.end.tsx</string>
+			<string>meta.tag.begin.tsx, meta.tag.end.tsx, meta.tag.begin.jsx, meta.tag.end.jsx, meta.tag.begin.js, meta.tag.end.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -210,7 +221,7 @@
 			<key>name</key>
 			<string>Tag Attribute (TSX)</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.tsx</string>
+			<string>entity.other.attribute-name.tsx, entity.other.attribute-name.js, entity.other.attribute-name.jsx</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
