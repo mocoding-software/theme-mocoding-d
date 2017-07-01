@@ -21,6 +21,13 @@
 				<string>#464646</string>
 				<key>selection</key>
 				<string>#2A4F78</string>
+				<key>badge.background</key>
+				<string>#80C2E2</string>
+			</dict>
+			<key>colors</key>
+			<dict>				
+				<key>badge.background</key>
+				<string>#80C2E2</string>
 			</dict>
 		</dict>
 <!-- Common for all languages -->
