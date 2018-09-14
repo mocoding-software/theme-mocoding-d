@@ -2,7 +2,7 @@
     "name": "theme-mocoding-d",
     "displayName": "Mocoding-D",
     "description": "Dark theme with orange keywords and blue types. Ported from Visual Studio.",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "publisher": "mocoding",
     "engines": {
         "vscode": "^1.2.0"

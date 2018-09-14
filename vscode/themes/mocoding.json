@@ -10,14 +10,14 @@
   "tokenColors": [
      {
       "name": "Other Text",
-      "scope": "variable, meta.object, meta.tag",
+      "scope": "variable, meta.object, meta.tag, support.constant, meta.function-call.arguments, variable.parameter.function, support.type.object, support.variable",
       "settings": {        
         "foreground": "#E8E0C8"
       }
     },
     {
       "name": "Keyword",
-      "scope": "keyword.control, keyword.type, keyword.other, keyword.operator.new, keyword.operator.expression, constant.language, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive",
+      "scope": "keyword.control, keyword.type, keyword.other, keyword.operator.new, keyword.operator.expression, constant.language, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.operator.logical.python",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#FF8811"
@@ -33,7 +33,7 @@
     },
     {
       "name": "Type Parameters",
-      "scope": "meta.type.parameters, entity.name.type.type-parameter",
+      "scope": "meta.type.parameters, entity.name.type.type-parameter, constant.character.format.placeholder",
       "settings": {
         "foreground": "#FFFFFF",
         "fontStyle": "italic"
@@ -48,19 +48,19 @@
       }
     },
     {
-      "name": "Comment",
-      "scope": "comment, punctuation.definition.comment",
-      "settings": {
-        "foreground": "#81B073"
-      }
-    },
-    {
       "name": "String",
       "scope": "string, punctuation.definition.string, keyword.operator.quantifier.regexp",
       "settings": {
         "foreground": "#EC9D9D"
       }
     },
+    {
+        "name": "Comment",
+        "scope": "comment, punctuation.definition.comment",
+        "settings": {
+          "foreground": "#81B073"
+        }
+      },
     {
       "name": "Number",
       "scope": "constant.numeric",
@@ -70,7 +70,7 @@
     },
     {
       "name": "Property name",
-      "scope": "property-name, support.function, meta.function-call",
+      "scope": "property-name, support.function, meta.function-call, entity.name.function, variable.legacy.builtin",
       "settings": {
         "foreground": "#91D0C4"
       }
@@ -144,6 +144,16 @@
       "settings": {
         "fontStyle": "bold",
         "foreground": "#FF8811"
+      }
+    },
+    {
+      "name": "Python DocString Comments",
+      "scope": ["string.quoted.docstring.multi.python",
+                "string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+                "string.quoted.docstring.multi.python punctuation.definition.string.end.python"],
+      "settings": {
+        "foreground": "#81B073",
+        "fontStyle": "italic"
       }
     }
   ]
