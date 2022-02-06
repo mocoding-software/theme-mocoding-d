@@ -10,22 +10,21 @@
   "tokenColors": [
      {
       "name": "Other Text",
-      "scope": "variable, meta.object, meta.tag, support.constant, meta.function-call.arguments, variable.parameter.function, support.type.object, support.variable",
+      "scope": "text, source, scope, variable, meta.object, meta.tag, support.constant, meta.function-call.arguments, variable.parameter.function, support.type.object, support.variable, constant.language.import-export-all",
       "settings": {        
         "foreground": "#E8E0C8"
       }
     },
     {
       "name": "Keyword",
-      "scope": "keyword.control, keyword.type, keyword.other, keyword.operator.new, keyword.operator.expression, constant.language, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.operator.logical.python",
-      "settings": {
-        "fontStyle": "bold",
-        "foreground": "#FF8811"
+      "scope": "keyword.control, keyword.type, keyword.other, keyword.operator.new, keyword.operator.expression, constant.language, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.operator.logical.python, entity.name.type.terraform",
+      "settings": {        
+        "foreground": "#f28d29"
       }
     },    
     {
       "name": "Operator / Punctuation",
-      "scope": "punctuation, keyword.operator, storage.type.function.arrow",
+      "scope": "punctuation, keyword.operator, storage.type.function.arrow, meta.brace, keyword.other.interpolation",
       "settings": {
         "foreground": "#FFFFFF",
         "fontStyle": "normal"
@@ -41,7 +40,7 @@
     },
     {
       "name": "Type",
-      "scope": "entity.name.type.alias, entity.name.type.class, meta.return.type, class.type.name, storage.type.variable, meta.type.annotation, return-type, inherited-class, entity.other.inherited-class, declaration.entity.type, declaration.heritage.type, storage.type.cs, support.class, new.expr",
+      "scope": "entity.name.type, entity.name.type.alias, entity.name.type.class, entity.name.type.module, meta.return.type, class.type.name, storage.type.variable, meta.type.annotation, return-type, inherited-class, entity.other.inherited-class, declaration.entity.type, declaration.heritage.type, storage.type.cs, support.class, new.expr",
       "settings": {
         "foreground": "#2DA7C9",
         "fontStyle": "normal"
@@ -49,9 +48,9 @@
     },
     {
       "name": "String",
-      "scope": "string, punctuation.definition.string, keyword.operator.quantifier.regexp",
+      "scope": "string.regexp, string.quoted, string.template, punctuation.definition.string, keyword.operator.quantifier.regexp",
       "settings": {
-        "foreground": "#EC9D9D"
+        "foreground": "#eda4a4"
       }
     },
     {
@@ -70,21 +69,21 @@
     },
     {
       "name": "Property name",
-      "scope": "property-name, support.function, meta.function-call, entity.name.function, variable.legacy.builtin",
+      "scope": "property-name, support.function, support.function.builtin, entity.name.function, variable.legacy.builtin",
       "settings": {
         "foreground": "#91D0C4"
       }
     },
     {
       "name": "Structure property name",
-      "scope": "support.type.property-name, punctuation.support.type.property-name",
+      "scope": "support.type.property-name, punctuation.support.type.property-name, entity.name.tag",
       "settings": {
         "foreground": "#D7BA7D"
       }
     },
     {
       "name": "Tag Name",
-      "scope": "entity.name.tag, selector, selector.attribute-name",
+      "scope": "selector, selector.attribute-name",
       "settings": {
         "foreground": "#FFA346"
       }
@@ -105,7 +104,7 @@
     },
     {
       "name": "Tag Attribute Value",
-      "scope": "tag.quoted, string.quoted.double.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html",
+      "scope": "tag.quoted, string.quoted.double.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html, ",
       "settings": {
         "foreground": "#A3A3A3"
       }
@@ -141,9 +140,8 @@
     {
       "name": "JS Keyword",
       "scope": "js.storage.type",
-      "settings": {
-        "fontStyle": "bold",
-        "foreground": "#FF8811"
+      "settings": {        
+        "foreground": "#f28d29"
       }
     },
     {
