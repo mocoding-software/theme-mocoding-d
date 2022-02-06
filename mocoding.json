@@ -17,7 +17,7 @@
     },
     {
       "name": "Keyword",
-      "scope": "keyword.control, keyword.type, keyword.other, keyword.operator.new, keyword.operator.expression, constant.language, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.operator.logical.python, entity.name.type.terraform",
+      "scope": "entity.name.tag, keyword.control, keyword.type, keyword.other, keyword.operator.new, keyword.operator.expression, constant.language, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.operator.logical.python, entity.name.type.terraform",
       "settings": {        
         "foreground": "#f28d29"
       }
@@ -76,7 +76,7 @@
     },
     {
       "name": "Structure property name",
-      "scope": "support.type.property-name, punctuation.support.type.property-name, entity.name.tag",
+      "scope": "support.type.property-name, punctuation.support.type.property-name, entity.name.tag.yaml",
       "settings": {
         "foreground": "#D7BA7D"
       }
