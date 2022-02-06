@@ -1,20 +1,18 @@
-#Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Mocoding-D Theme
 
-#Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+We live dark themes and contrast colors. Here is ower way to see code.
 
-#Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Javascript / Typescript + React
+![ts-tsx-js-jsx](https://mocoding.blob.core.windows.net/resources/theme/ts-tsx-js-jsx.png)
 
-#Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## C#
+![css](https://mocoding.blob.core.windows.net/resources/theme/CSharp.png)
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## HTML
+![html](https://mocoding.blob.core.windows.net/resources/theme/html.png)
+
+## LESS / CSS
+![css](https://mocoding.blob.core.windows.net/resources/theme/less-css.png)
+
+## JSON
+![css](https://mocoding.blob.core.windows.net/resources/theme/json.png)
