@@ -1,18 +1,5 @@
 # Mocoding-D Theme
 
-We live dark themes and contrast colors. Here is ower way to see code.
+[![Version](https://vsmarketplacebadge.apphb.com/version/mocoding.theme-mocoding-d.svg)](https://marketplace.visualstudio.com/items?itemName=mocoding.theme-mocoding-d) [![Installs](https://vsmarketplacebadge.apphb.com/installs/mocoding.theme-mocoding-d.svg)](https://marketplace.visualstudio.com/items?itemName=mocoding.theme-mocoding-d) [![Ratings](https://vsmarketplacebadge.apphb.com/rating/mocoding.theme-mocoding-d.svg)](https://marketplace.visualstudio.com/items?itemName=mocoding.theme-mocoding-d)
 
-## Javascript / Typescript + React
-![ts-tsx-js-jsx](https://mocoding.blob.core.windows.net/resources/theme/ts-tsx-js-jsx.png)
 
-## C#
-![css](https://mocoding.blob.core.windows.net/resources/theme/CSharp.png)
-
-## HTML
-![html](https://mocoding.blob.core.windows.net/resources/theme/html.png)
-
-## LESS / CSS
-![css](https://mocoding.blob.core.windows.net/resources/theme/less-css.png)
-
-## JSON
-![css](https://mocoding.blob.core.windows.net/resources/theme/json.png)
