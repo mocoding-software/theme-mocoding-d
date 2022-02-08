@@ -4,9 +4,15 @@
   "description": "Dark theme with orange keywords and blue types.",
   "version": "3.1.0",
   "publisher": "mocoding",
+  "icon": "logo.png",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mocoding-software/theme-mocoding-d"
+},
   "categories": [
     "Themes"
   ],
@@ -15,7 +21,7 @@
       {
         "label": "Mocoding-D",
         "uiTheme": "vs-dark",
-        "path": "./mocoding.json"
+        "path": "./theme.json"
       }
     ]
   }

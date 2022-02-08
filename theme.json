@@ -17,14 +17,14 @@
     },
     {
       "name": "Keyword",
-      "scope": "entity.name.tag, keyword.control, keyword.type, keyword.other, keyword.operator.new, keyword.operator.expression, constant.language, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.operator.logical.python, entity.name.type.terraform",
+      "scope": "keyword, keyword.operator.new, variable.language.special, entity.name.tag, constant.language, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, entity.name.type.terraform",
       "settings": {        
         "foreground": "#f28d29"
       }
     },    
     {
       "name": "Operator / Punctuation",
-      "scope": "punctuation, keyword.operator, storage.type.function.arrow, meta.brace, keyword.other.interpolation",
+      "scope": "keyword.other.unit, punctuation, keyword.operator, storage.type.function.arrow, meta.brace, keyword.other.interpolation",
       "settings": {
         "foreground": "#FFFFFF",
         "fontStyle": "normal"
@@ -55,7 +55,7 @@
     },
     {
         "name": "Comment",
-        "scope": "comment, punctuation.definition.comment",
+        "scope": "comment, punctuation.definition.comment, string.quoted.docstring",
         "settings": {
           "foreground": "#81B073"
         }
@@ -69,7 +69,7 @@
     },
     {
       "name": "Property name",
-      "scope": "property-name, support.function, support.function.builtin, entity.name.function, variable.legacy.builtin",
+      "scope": "meta.function-call.generic, property-name, support.function, support.function.builtin, entity.name.function, variable.legacy.builtin",
       "settings": {
         "foreground": "#91D0C4"
       }
